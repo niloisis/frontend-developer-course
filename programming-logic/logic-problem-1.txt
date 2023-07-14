@@ -1,92 +1,48 @@
-﻿Problema de Lógica:
+# ﻿Problema de Lógica
 
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar. 
 
-Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar. Sabendo que: 
-
-
+Sabendo que: 
 1. Aristóteles não ficou em primeiro em Química; 
 2. Sócrates perdeu para Platão em Física;
 3. Platão acertou mais que Aristóteles em Matemática. 
 
-
 Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
 
+## Analisando as informações
 
-Analisando as informações:
+	1. Aristóteles pode ter ficado no 2º ou no 3º lugar de Química
+	2. Platão pode ter ficado em 1º ou 2º lugar de Física, logo Sócrates pode ter ficado em 2º lugar no primeiro caso ou no 3º lugar no segundo caso.
+	3. Platão pode ter ficado em 1º ou 2º lugar de Matemática, logo Aristóteles pode ter ficado em 2º no primeiro caso ou 3º lugar no segundo caso.
 
+			    |	Física	   |	Matemática   |	Química	 |
+		----------------------------------------------------------
+		Aristóteles |		   |	2º ou 3º     |	2º ou 3º |
+		Sócrates    |	2º ou 3º   |		     |	         |  
+		Platão	    |	1º ou 2º   |	1º ou 2º     |	         |
 
-1. Aristóteles pode ter ficado no 2º ou no 3º lugar de Química
-2. Platão pode ter ficado em 1º ou 2º lugar de Física, logo Sócrates pode ter ficado em 2º lugar no primeiro caso ou no 3º lugar no segundo caso.
-3. Platão pode ter ficado em 1º ou 2º lugar de Matemática, logo Aristóteles pode ter ficado em 2º no primeiro caso ou 3º lugar no segundo caso.
+	4. Como Aristóteles ficou com o 2º lugar e o 3º lugar nas matérias de Matemática e Química, ele ficou em 1º lugar de física.
+	5. Se Platão acertou mais do que Sócrates em física e Aristóteles tomou o 1º lugar, então Platão ficou em 2º e Sócrates em 3º.
+	6. Se Platão acertou mais que Aristóteles em Matemática e já possui o 2º lugar em Física, então ele ficou em 1º em Matemática
 
+			    |	Física	   |	Matemática   |	Química	 |
+		----------------------------------------------------------
+		Aristóteles |	1º	   |	3º	     |	2º       |
+		Sócrates    |	3º	   |		     |	         |  
+		Platão	    |	2º	   |	1º	     |	         |
 
+	7. Podemos então analisar os dados que faltam na tabela e preenche, sabendo que cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar:
+	   
+			    |	Física	   |	Matemática   |	Química	 |
+		----------------------------------------------------------
+		Aristóteles |	1º	   |	3º	     |	2º       |
+		Sócrates    |	3º	   |	2º	     |	1º       |  
+		Platão	    |	2º	   |	1º	     |	3º       |
 
+## 1º, 2º e 3º lugar em cada disciplina:
 
-	Física
-	Matemática
-	Química
-	Aristóteles
-	
+			Física		Matemática	Química
+	1º LUGAR 	Aristóteles 	Platão 	  	Sócrates
+	2º LUGAR	Platão		Sócrates	Aristóteles
+	3º LUGAR	Sócrates	Aristóteles	Platão
 
-	2º ou 3º
-	2º ou 3º
-	Sócrates
-	2º ou 3º
-	
-
-	
-
-	Platão
-	1º ou 2º
-	1º ou 2º
-	
-
-	
-
-4. Como Aristóteles ficou com o 2º lugar e o 3º lugar nas matérias de Matemática e Química, ele ficou em 1º lugar de física.
-5. Se Platão acertou mais do que Sócrates em física e Aristóteles tomou o 1º lugar, então Platão ficou em 2º e Sócrates em 3º.
-6. Se Platão acertou mais que Aristóteles em Matemática e já possui o 2º lugar em Física, então ele ficou em 1º em Matemática
-
-
-
-
-	Física
-	Matemática
-	Química
-	Aristóteles
-	1º
-	3º
-	2º
-	Sócrates
-	3º
-	
-
-	
-
-	Platão
-	2º
-	1º
-	
-
-	
-
-7. Podemos então analisar os dados que faltam na tabela e preenche, sabendo que cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar:
-
-
-
-
-	Física
-	Matemática
-	Química
-	Aristóteles
-	1º
-	3º
-	2º
-	Sócrates
-	3º
-	2º
-	1º
-	Platão
-	2º
-	1º
-	3º
