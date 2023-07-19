@@ -1,0 +1,52 @@
+Levando em consideração os aprendizados sobre as estruturas condicionais, elabore um algoritmo que 
+possa descobrir, através de perguntas e respostas, qual é o meio de transporte que o usuário está considerando. 
+O usuário deverá escolher uma das seguintes opções:
+
+- trator; 
+- moto; 
+- bicicleta. 
+
+Para chegar ao resultado, as perguntas precisam ser respondidas apenas com "Sim" ou "Não".
+
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.
+
+Para chegar ao resultado de cada uma das opções, use o modelo em (https://drive.google.com/file/d/1lNKG_G8PsgWPaOTiixAvcQ8KB2aD6YoX/view)
+
+## Resolução
+
+Var resposta
+operacao: booleano
+Inicio
+	escreva("É terrestre?"
+	leia(resposta)
+	se (resposta == sim) entao
+		escolha operacao
+			caso "cabe apenas uma pessoa"
+				escolha operacao
+					caso "é pesado"
+						escreva("Trator")
+					caso "tem pedal"
+						escreva("Bicicleta")
+				fim escolha	
+			caso "usa capacete"
+				escreva("Moto")
+	fimse
+fimalgoritmo
+
+
+
+
+
+
+
+
+
+
+
+
+
