@@ -1,3 +1,5 @@
+# Problema de Lógica 5
+
 Levando em consideração os aprendizados sobre as estruturas condicionais, elabore um algoritmo que 
 possa descobrir, através de perguntas e respostas, qual é o meio de transporte que o usuário está considerando. 
 O usuário deverá escolher uma das seguintes opções:
@@ -22,31 +24,19 @@ Para chegar ao resultado de cada uma das opções, use o modelo em (https://driv
 Var resposta
 operacao: booleano
 Inicio
-	escreva("É terrestre?"
-	leia(resposta)
-	se (resposta == sim) entao
-		escolha operacao
-			caso "cabe apenas uma pessoa"
-				escolha operacao
-					caso "é pesado"
-						escreva("Trator")
-					caso "tem pedal"
-						escreva("Bicicleta")
+   escreva("É terrestre?")
+      leia(resposta)
+      se (resposta == sim) entao
+	escolha operacao
+	   caso "cabe apenas uma pessoa"
+  		escolha operacao
+		   caso "é pesado"
+			escreva("Trator")
+		   caso "tem pedal"
+			escreva("Bicicleta")
 				fim escolha	
-			caso "usa capacete"
-				escreva("Moto")
-	fimse
+	   caso "usa capacete"
+		escreva("Moto")
+	fimescolha
+      fimse
 fimalgoritmo
-
-
-
-
-
-
-
-
-
-
-
-
-
