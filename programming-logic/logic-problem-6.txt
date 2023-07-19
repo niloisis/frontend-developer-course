@@ -34,7 +34,7 @@ Inicio
 			escreva("Trator")
 		   caso "tem pedal"
 			escreva("Bicicleta")
-				fim escolha	
+		   fim escolha	
 	   caso "usa capacete"
 		escreva("Moto")
 	fimescolha
