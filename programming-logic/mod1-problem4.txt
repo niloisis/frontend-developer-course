@@ -1,0 +1,44 @@
+Início
+
+escreva "Digite o nome:"
+leia nome
+
+escreva "Digite o endereço:"
+leia endereco
+
+escreva "Digite a cidade:"
+leia cidade
+
+escreva "Digite o CPF:"
+leia cpf
+
+escreva "Digite o RG:"
+leia rg
+
+escreva "Digite a idade:"
+leia idade
+
+escreva "Digite o nome do pai:"
+leia nomePai
+
+escreva "Digite o nome da mãe:"
+leia nomeMae
+
+escreva "Digite o peso:"
+leia peso
+
+escreva "Digite a renda bruta:"
+leia rendaBruta
+
+escreva "Nome:", nome
+escreva "Endereço:", endereco
+escreva "Cidade:", cidade
+escreva "CPF:", cpf
+escreva "RG:", rg
+escreva "Idade:", idade
+escreva "Nome do Pai:", nomePai
+escreva "Nome da Mãe:", nomeMae
+escreva "Peso:", peso
+escreva "Renda Bruta:", rendaBruta
+
+fim

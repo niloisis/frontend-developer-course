@@ -1,0 +1,20 @@
+# PROBLEMA DE LOGICA 7
+
+Um aluno do ensino fundamental precisa fazer como tarefa de casa a tabuada de alguns números inteiros,
+como nos exemplos em (https://drive.google.com/file/d/1qAa44BP9vXNIdFw6j4huQX8yBMwZPfKj/view)
+
+Para ajudar esse aluno, você deve elaborar um algoritmo que solicite que seja digitado um número inteiro e
+que no final imprima o resultado da tabuada desse número.
+
+## RESOLUÇÃO
+
+Var numero, calculo, contador
+operacao: inteiro
+Inicio
+   Escreva ("Digite o número que deseja saber a tabuada: ")
+   Leia (numero)
+   Escreva ("Tabuada do ", numero, ":")
+   para contador <- 0 ate 10 faca
+      Escreva (numero, " x ", contador, " = ", numero * contador)
+   fimpara
+fimalgoritmo
